@@ -5,7 +5,7 @@ module.exports = [
         type: 'input'
     },
     {
-        name: 'desription',
+        name: 'description',
         message: 'describe your project',
         type: 'input'
 
@@ -21,15 +21,22 @@ module.exports = [
         type: 'input'
     },
     {
+        type: 'rawlist',
         name: 'license',
-        message: 'Which license would you like to include?',
-        type: 'list',
-        choices: [
-            'MIT',
-            'GNU',
-            'None'
-        ]
+        choices: ['MIT', 'IPL 1.0', 'MPL 2.0', 'None'],
+        message: "What type of license do you like to use?"
 
         
     },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your github username?',
+        default: 'https//github.com'
+    },
+    {
+        type: 'input',
+        name: 'contributions',
+        message: 'Who contributed to this project?'
+    }
 ]
