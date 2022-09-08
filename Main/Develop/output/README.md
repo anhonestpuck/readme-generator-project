@@ -9,16 +9,16 @@
        
         
         ## Installation
-       undefined
+       quickly
         
         ## Usage
         
-      undefined
+      generate readme
         
         ## Credits
         
       
         ## License
-       undefined
+       MIT
         
         ---
