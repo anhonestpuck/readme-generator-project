@@ -36,7 +36,7 @@ ${renderLicenseBadge(license)}`
 
 // TODO: Create a function to generate markdown for README
 //struggled a bit with making sure the format here was ok
-function generateMarkdown(answers) {
+const generateMarkdown = (answers) => {
   return `# ${answers.title}
 
 ${renderLicenseBadge(answers.license)}
